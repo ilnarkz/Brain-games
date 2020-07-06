@@ -6,7 +6,7 @@ import brain_games.scripts.brain_games
 
 def main():
     brain_games.scripts.brain_games.main()
-    name = welcome_user()
+    name = brain_games.cli.welcome_user()
     counter = 0
     while counter < 3:
         num = randint(1, 100)
@@ -27,5 +27,5 @@ def main():
         print('Congratulations, {}'.format(name))
 
 
-if __name__== '__main__':
+if __name__ == '__main__':
     main()
