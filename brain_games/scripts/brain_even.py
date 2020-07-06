@@ -20,10 +20,12 @@ def main():
         if answer == correct_answer:
             print('Correct!')
         else:
-            print("'{}' is wrong answer ;(. Correct answer was '{}'.\n Let's try again, {}!".format(answer, correct_answer, name))
+            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(answer, correct_answer))
+            print("Let's try again, {}!".format(name))
             break
     if counter == 3:
         print('Congratulations, {}'.format(name))
+
 
 if __name__== '__main__':
     main()
