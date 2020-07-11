@@ -17,11 +17,11 @@ def main():
         print('Question:' + str(num))
         answer = prompt.string('Your answer: ')
         counter += 1
+        error_string = "'{}' is wrong answer ;(. Correct answer was '{}'."
         if answer == correct_answer:
             print('Correct!')
         else:
-            print("'{}' is wrong answer ;(. "
-            "Correct answer was '{}'.".format(answer, correct_answer))
+            print(error_string.format(answer, correct_answer))
             print("Let's try again, {}!".format(name))
             break
     if counter == 3:
