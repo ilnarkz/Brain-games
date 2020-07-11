@@ -20,7 +20,8 @@ def main():
         if answer == correct_answer:
             print('Correct!')
         else:
-            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(answer, correct_answer))
+            print("'{}' is wrong answer ;(. "
+            "Correct answer was '{}'.".format(answer, correct_answer))
             print("Let's try again, {}!".format(name))
             break
     if counter == 3:
