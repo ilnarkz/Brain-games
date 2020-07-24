@@ -5,3 +5,5 @@
 [![Build Status](https://travis-ci.com/ilnarkz/python-project-lvl1.svg?branch=master)](https://travis-ci.com/ilnarkz/python-project-lvl1)
 
 https://asciinema.org/a/ZqW9eCkk6g2lN6Bmnlx8JpNdD
+
+https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w
