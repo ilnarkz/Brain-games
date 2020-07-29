@@ -12,3 +12,5 @@ brain-gcd game installation https://asciinema.org/a/birLiOkv81gNo7W9PINdTQ7Ds
 
 brain-progression game installation https://asciinema.org/a/ygpIFd9N5T1cJRLl2U5YSMUDo
 
+brain-prime game installation https://asciinema.org/a/z64l4gpP4HsBVmrf5D9zwVXWD
+

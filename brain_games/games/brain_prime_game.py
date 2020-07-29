@@ -32,5 +32,3 @@ def main():
             break
     if counter == 3:
         print('Congratulations, {}!'.format(name))
-
-
