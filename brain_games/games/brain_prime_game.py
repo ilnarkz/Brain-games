@@ -1,3 +1,4 @@
+
 from random import randint
 import brain_games.cli
 import prompt
@@ -5,14 +6,19 @@ import prompt
 
 def main():
     print('Welcome to the Brain Games!')
-    print('Answer "yes" if number even otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     name = brain_games.cli.welcome_user()
     counter = 0
     while counter < 3:
         num = randint(1, 100)
-        if num % 2 == 0:
-            correct_answer = 'yes'
-        else:
+        divisor = num - 1
+        while divisor > 1:
+            if num % divisor == 0:
+                correct_answer = 'yes'
+                break
+            else:
+                divisor -= 1
+        if divisor == 1:
             correct_answer = 'no'
         print('Question:' + str(num))
         answer = prompt.string('Your answer: ')
@@ -26,3 +32,5 @@ def main():
             break
     if counter == 3:
         print('Congratulations, {}!'.format(name))
+
+
