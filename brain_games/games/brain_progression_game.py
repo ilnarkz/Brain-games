@@ -12,30 +12,30 @@ def main():
         num1 = randint(1, 100)
         step = randint(1, 10)
         position = randint(0, 9)
-        string_question = ''
+        str_question = ''
         index = 0
         while index < 10:
             if index == 0 and position == 0:
-                string_question = '..'
+                str_question = '..'
                 index += 1
                 continue
             if index == 0 and position != 0:
-                string_question = str(num1)
+                str_question = str(num1)
                 index += 1
                 continue
             if index != 0 and index != position:
-                string_question = string_question + ' ' + str(num1 + step * index)
+                str_question = str_question + ' ' + str(num1 + step * index)
                 index += 1
                 continue
             else:
-                string_question = string_question + ' ..'
+                str_question = str_question + ' ..'
                 index += 1
                 continue
-        if position == 0: 
+        if position == 0:
             correct_answer = num1
         else:
             correct_answer = num1 + step * position
-        print('Question: ' + string_question)
+        print('Question: ' + str_question)
         answer = prompt.string('Your answer: ')
         counter += 1
         error_string = "'{}' is wrong answer ;(. Correct answer was '{}'."

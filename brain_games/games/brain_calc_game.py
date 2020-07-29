@@ -30,7 +30,3 @@ def main():
             break
     if counter == 3:
         print('Congratulations, {}!'.format(name))
-
-
-if __name__ == '__main__':
-    main()
