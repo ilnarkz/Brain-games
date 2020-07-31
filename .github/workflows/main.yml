@@ -33,4 +33,8 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        make lint
+        
+    - name: Run linter and pytest
+      run: |
+        make check
+
