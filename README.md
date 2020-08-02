@@ -6,13 +6,13 @@
 
 [![Build Status](https://travis-ci.com/ilnarkz/python-project-lvl1.svg?branch=master)](https://travis-ci.com/ilnarkz/python-project-lvl1)
 
-brain-even game installation https://asciinema.org/a/ZqW9eCkk6g2lN6Bmnlx8JpNdD
+brain-even game installation <a href="https://asciinema.org/a/ZqW9eCkk6g2lN6Bmnlx8JpNdD"/></a>
 
-brain-calc game installation https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w
+brain-calc game installation <a href="https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w"/></a>
 
-brain-gcd game installation https://asciinema.org/a/birLiOkv81gNo7W9PINdTQ7Ds
+brain-gcd game installation <a href="https://asciinema.org/a/birLiOkv81gNo7W9PINdTQ7Ds"/></a>
 
-brain-progression game installation https://asciinema.org/a/ygpIFd9N5T1cJRLl2U5YSMUDo
+brain-progression game installation <a href="https://asciinema.org/a/ygpIFd9N5T1cJRLl2U5YSMUDo"/></a>
 
-brain-prime game installation https://asciinema.org/a/z64l4gpP4HsBVmrf5D9zwVXWD
+brain-prime game installation <a href="https://asciinema.org/a/z64l4gpP4HsBVmrf5D9zwVXWD"/></a>
 
