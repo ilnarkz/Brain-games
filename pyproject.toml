@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ilnarkz_brain_games"
-version = "0.7.0"
+version = "1.0.0"
 description = "Brain_games"
 authors = ["ilnar"]
 packages = [
