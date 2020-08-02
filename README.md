@@ -8,7 +8,7 @@
 
 brain-even game installation <a href="https://asciinema.org/a/ZqW9eCkk6g2lN6Bmnlx8JpNdD"/></a>
 
-brain-calc game installation <a href="https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w"/></a>
+brain-calc game installation [![asciicast](https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w.svg)](https://asciinema.org/a/tDhRTedNrmUqgpoPVLwSyQV8w)
 
 brain-gcd game installation <a href="https://asciinema.org/a/birLiOkv81gNo7W9PINdTQ7Ds"/></a>
 
