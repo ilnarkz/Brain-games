@@ -1,9 +1,8 @@
-from random import randint
 import brain_games.engine
-import prompt
 
 
 DESCRIPTION = 'What number is missing in the progression?'
+
 
 def main():
     num1 = randint(1, 100)

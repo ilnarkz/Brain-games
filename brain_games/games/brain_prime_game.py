@@ -1,7 +1,7 @@
-import brain_games.engine
 from random import randint
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def main():
     num = randint(1, 100)

@@ -3,18 +3,6 @@ import brain_games.cli
 import prompt
 
 
-def num_generate():
-    return randint(1, 100)
-
-def operator_generate():
-    return choice('+-*')
-
-def step_generate():
-    return randint(1, 10)
-
-def position_generate():
-    return randint(0, 9)
-
 def run(game=None):
     print('Welcome to the Brain Games!')
     print(game.DESCRIPTION)

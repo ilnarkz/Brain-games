@@ -1,7 +1,7 @@
-import brain_games.engine
 from random import randint
 
 DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
+
 
 def main():
     num = randint(1, 100)
