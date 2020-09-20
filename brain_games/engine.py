@@ -1,4 +1,3 @@
-from random import randint, choice
 import brain_games.cli
 import prompt
 
@@ -21,4 +20,3 @@ def run(game=None):
             break
     if counter == 3:
         print('Congratulations, {}!'.format(name))
-

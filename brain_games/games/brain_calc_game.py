@@ -14,5 +14,6 @@ def main():
         correct_answer = num1 - num2
     if operator == '*':
         correct_answer = num1 * num2
-    question = print('Question: ' + (str(num1) + ' ' + operator + ' ' + str(num2)))
+    str_question = 'Question: {} {} {}'.format(str(num1), operator, str(num2))
+    question = print(str_question)
     return correct_answer, question
