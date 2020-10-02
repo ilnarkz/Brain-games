@@ -8,24 +8,24 @@ def generate_answer_and_question():
     step = randint(1, 10)
     position = randint(0, 9)
     str_question = ''
-    current_index = 0
+    curr_index = 0
     last_index = 9
-    while current_index <= last_index:
-        if current_index == 0 and position == 0:
+    while curr_index <= last_index:
+        if curr_index == 0 and position == 0:
             str_question = '..'
-            current_index += 1
+            curr_index += 1
             continue
-        if current_index == 0 and position != 0:
+        if curr_index == 0 and position != 0:
             str_question = str(num1)
-            current_index += 1
+            curr_index += 1
             continue
-        if current_index != 0 and current_index != position:
-            str_question = str_question + ' ' + str(num1 + step * current_index)
-            current_index += 1
+        if curr_index != 0 and curr_index != position:
+            str_question = str_question + ' ' + str(num1 + step * curr_index)
+            curr_index += 1
             continue
         else:
             str_question = str_question + ' ..'
-            current_index += 1
+            curr_index += 1
             continue
     if position == 0:
         correct_answer = num1

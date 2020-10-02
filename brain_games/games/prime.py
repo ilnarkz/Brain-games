@@ -14,10 +14,9 @@ def is_prime(n):
     return True
 
 
-
 def generate_answer_and_question():
     num = randint(1, 100)
-    if is_prime(num) == False:
+    if is_prime(num) is False:
         correct_answer = 'no'
     else:
         correct_answer = 'yes'
