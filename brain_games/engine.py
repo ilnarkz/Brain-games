@@ -1,14 +1,15 @@
-import brain_games.cli
 import prompt
 
 
 def run(game=None):
     print('Welcome to the Brain Games!')
     print(game.DESCRIPTION)
-    name = brain_games.cli.welcome_user()
+    name = prompt.string('May I have your name? ')
+    print("Hello, {}!".format(name))
     counter = 0
     while counter < 3:
-        correct_answer, answer = game.main()
+        correct_answer, question = game.generate_answer_and_question()
+        print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
         counter += 1
         error_string = "'{}' is wrong answer ;(. Correct answer was '{}'."
@@ -18,5 +19,5 @@ def run(game=None):
             print(error_string.format(answer, correct_answer))
             print("Let's try again, {}!".format(name))
             break
-    if counter == 3:
+    else:
         print('Congratulations, {}!'.format(name))
