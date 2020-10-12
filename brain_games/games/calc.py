@@ -10,9 +10,9 @@ def generate_answer_and_question():
     operator = choice('-+*')
     if operator == '+':
         correct_answer = num1 + num2
-    if operator == '-':
+    elif operator == '-':
         correct_answer = num1 - num2
-    if operator == '*':
+    else:
         correct_answer = num1 * num2
     question = str(num1) + ' ' + operator + ' ' + str(num2)
     return correct_answer, question
