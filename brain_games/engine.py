@@ -3,6 +3,7 @@ import prompt
 
 ATTEMPT = 3
 
+
 def run(game):
     print('Welcome to the Brain Games!')
     print(game.DESCRIPTION)

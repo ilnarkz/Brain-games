@@ -17,5 +17,5 @@ def generate_answer_and_question():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     question = str(num1) + ' ' + str(num2)
-    correct_answer = find_greatest_common_divisor((num1, num2)
+    correct_answer = find_greatest_common_divisor(num1, num2)
     return correct_answer, question
