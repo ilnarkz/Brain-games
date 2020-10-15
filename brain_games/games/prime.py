@@ -4,6 +4,8 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
+    if n <= 1:
+        return False
     divisor = 2
     while divisor <= n / 2:
         if n % divisor == 0:

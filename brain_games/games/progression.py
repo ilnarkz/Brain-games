@@ -8,24 +8,19 @@ def generate_answer_and_question():
     num1 = randint(1, 100)
     step = randint(1, 10)
     position = randint(0, length_of_progression - 1)
-    gen_question = ''
+    game_question = ''
     curr_index = 0
     while curr_index < length_of_progression:
         if curr_index != position:
-            gen_question = gen_question + ' ' + str(num1 + step * curr_index)
+            game_question = game_question + ' ' + str(num1 + step * curr_index)
             curr_index += 1
             continue
         else:
-            gen_question = gen_question + ' ..'
+            game_question = game_question + ' ..'
             curr_index += 1
             continue
-    if position == 0:
-        correct_answer = num1
-    else:
-        correct_answer = num1 + step * position
-    if gen_question[0] == ' ':
-        gen_question = gen_question[1:]
-    if gen_question[-1] == ' ':
-        gen_question = gen_question[:-2]
-    question = gen_question
+    correct_answer = num1 + step * position
+    if game_question[0] == ' ':
+        game_question = game_question[1:]
+    question = game_question
     return correct_answer, question

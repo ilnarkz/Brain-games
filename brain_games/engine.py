@@ -1,7 +1,7 @@
 import prompt
 
 
-ATTEMPT = 3
+ATTEMPTS_COUNT = 3
 
 
 def run(game):
@@ -10,7 +10,7 @@ def run(game):
     name = prompt.string('May I have your name? ')
     print("Hello, {}!".format(name))
     counter = 0
-    while counter < ATTEMPT:
+    while counter < ATTEMPTS_COUNT:
         correct_answer, question = game.generate_answer_and_question()
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
